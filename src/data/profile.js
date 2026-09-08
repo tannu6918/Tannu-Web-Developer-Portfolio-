@@ -4,7 +4,7 @@ export const profile = {
   tagline:
     'To succeed in an environment of growth and excellence and earn a job which provides satisfaction and self-development — helping achieve personal and organizational goals.',
   email: 'tannu6918@gmail.com',
-  resumeUrl: 'public/resumeUrl.pdf',
+ resumeUrl: `${import.meta.env.BASE_URL}resumeUrl.pdf`,
   roles: ['Frontend Developer', 'React Developer', 'UI Designer'],
   socials: [
     { name: 'GitHub', url: 'https://github.com/tannu6918', icon: 'github' },
